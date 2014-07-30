@@ -5,15 +5,22 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToOne;
 
+
 /**
- *
- * @author Bruna
+ * Classe responsavél por cadastrar Pessoa, contendo:
+ * o código do cliente, telefone residencial, email e o instanciamento
+ * do da classe endereço.
+ * 
+ * @author Bruna Zakrzeski
+ * @since 1.0
+ * @version 1.0 07/08/2014
  */
 
 
 @MappedSuperclass
 public abstract class Pessoa {
 
+    //Inicio variaveis
     @Id
     @GeneratedValue
     private int codigo;
@@ -22,7 +29,10 @@ public abstract class Pessoa {
     
     @OneToOne (cascade = CascadeType.ALL)
     private Endereco endereco;
+    //Fim das variaveis
 
+    
+    //Inicio get e set
     public int getCodigo() {
         return codigo;
     }
@@ -55,5 +65,6 @@ public abstract class Pessoa {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
+    //Fim get e set
 
 }
