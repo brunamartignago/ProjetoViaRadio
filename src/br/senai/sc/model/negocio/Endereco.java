@@ -5,22 +5,39 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 
+/**
+ * Classe responsavél por cadastrar o endereço, contendo:
+ * código do endereço, instanciamento da cidade, instanciamento do estado,
+ * o cep, bairro, rua, número da casa e o complemento.
+ * 
+ * @author Bruna Zakrzeski
+ * @since 1.0
+ * @version 1.0 07/08/2014
+ */
+
+
 @Entity
 public class Endereco {
 
+    //Inicio das variaveis
     @Id
     @GeneratedValue
     private int codigo;
     @ManyToOne
     private Cidade cidade;
+    
     @ManyToOne
     private Estado estado;
+    
     private String CEP;
     private String bairro;
     private String rua;
     private String numeroCasa;
     private String complemento;
+    //Fim das variaveis
 
+    
+    //Inicio get e set
     public int getCodigo() {
         return codigo;
     }
@@ -84,6 +101,7 @@ public class Endereco {
     public void setComplemento(String complemento) {
         this.complemento = complemento;
     }
+    //Fim do get e set
     
     
 }
