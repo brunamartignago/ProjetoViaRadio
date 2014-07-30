@@ -10,7 +10,7 @@ import java.util.List;
  * Essa classe cria um construtor, e insere o nome da classe dentro do parentese,
  * na próxima linha chama-se a classe DAO da determinada classe, e ao lado cria um construtor chamando
  * a classe DAOJPA também. Na última linha insere-se um retorno com o dao.save para salvar a
- * classe que está sendo inserida, assim sucessivamente.
+ * classe que está sendo inserida,e assim sucessivamente.
  *
  * @author Bruna Zakrzeski
  * @since 1.0
