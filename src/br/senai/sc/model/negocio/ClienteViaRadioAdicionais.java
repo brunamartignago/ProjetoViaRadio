@@ -12,6 +12,7 @@ import javax.persistence.ManyToOne;
  * @version 1.0 07/08/2014
  */
 
+
 //@Entity
 public class ClienteViaRadioAdicionais {
     
