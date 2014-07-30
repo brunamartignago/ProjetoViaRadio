@@ -22,7 +22,6 @@ public class StatusRecebimento {
     //Fim das variaveis
     
     
-    
     //Inicio Get e Set
     public int getCodigo() {
         return codigo;
