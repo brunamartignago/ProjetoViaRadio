@@ -1,8 +1,5 @@
 package br.senai.sc.model.negocio;
-import java.io.Serializable;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 
 /**
  * Classe responsavél por cadastrar os dados pessoais dos clientes, contendo:
@@ -17,7 +14,7 @@ import javax.persistence.Id;
 @Entity
 public class Cliente extends PessoaFisica {
 
-    // Inicio das variaveis
+    // Inicio das variaveis jkjk
     private String telefoneTrabalho;
     private String emailAlternativo;
 
