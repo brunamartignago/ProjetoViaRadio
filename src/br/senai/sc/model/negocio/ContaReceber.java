@@ -15,6 +15,7 @@ import javax.persistence.Temporal;
  * @version 1.0 07/08/2014
  */
 
+
 @Entity
 public class ContaReceber {
     
