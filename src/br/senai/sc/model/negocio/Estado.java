@@ -23,7 +23,7 @@ public class Estado {
     //Fim das variaveis
 
     
-    
+    //Inicio get e set
     public int getCodigo() {
         return codigo;
     }
@@ -52,6 +52,7 @@ public class Estado {
     public String toString() {
         return nome;
     }
+    //Fim do get e set
     
     
 
