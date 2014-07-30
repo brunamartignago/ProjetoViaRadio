@@ -3,14 +3,14 @@ import javax.persistence.Entity;
 
 /**
  * Classe responsavél por cadastrar os dados pessoais dos clientes, contendo:
- * código do paciente, nome, sobrenome, apelido, cpf, rg, data de nascimento,
- * bairro, rua, número da casa, complemento, telefone redidencial, telefone
- * celular, telefone trabalho, email e email alteranativo.
+ * telefone trabalho e email alteranativo, o resto dos dados
+ * é extendido da classe Pessoa Fisica.
  *
  * @author Bruna Zakrzeski
  * @since 1.0
  * @version 1.0 07/08/2014
  */
+
 @Entity
 public class Cliente extends PessoaFisica {
 
