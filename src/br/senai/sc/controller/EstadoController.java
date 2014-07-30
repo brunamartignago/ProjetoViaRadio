@@ -6,11 +6,12 @@ import java.util.List;
 
 /**
  * Classe EstadoController, nessa classe possui os métodos de inserir, editar,
- * salvar, listar todos, listar por ID e pesquisar, da determinada classe.
- * Essa classe cria um construtor, e insere o nome da classe dentro do parentese,
- * na próxima linha chama-se a classe DAO da determinada classe, e ao lado cria um construtor chamando
- * a classe DAOJPA também. Na última linha insere-se um retorno com o dao.save para salvar a
- * classe que está sendo inserida, assim sucessivamente.
+ * salvar, listar todos, listar por ID e pesquisar, da determinada classe. Essa
+ * classe cria um construtor, e insere o nome da classe dentro do parentese, na
+ * próxima linha chama-se a classe DAO da determinada classe, e ao lado cria um
+ * construtor chamando a classe DAOJPA também. Na última linha insere-se um
+ * retorno com o dao.save para salvar a classe que está sendo inserida, assim
+ * sucessivamente.
  *
  * @author Bruna Zakrzeski
  * @since 1.0
