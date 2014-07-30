@@ -1,5 +1,4 @@
 package br.senai.sc.controller;
-
 import br.senai.sc.model.negocio.Cidade;
 import br.senai.sc.model.negocio.Estado;
 import br.senai.sc.model.persistencia.CidadeDAOJPA;
@@ -19,6 +18,7 @@ import java.util.List;
  * @since 1.0
  * @version 1.0 07/08/2014
  */
+
 public class CidadeController {
 
     //Método para listar todos
