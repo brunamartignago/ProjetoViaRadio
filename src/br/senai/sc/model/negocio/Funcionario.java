@@ -5,9 +5,8 @@ import javax.persistence.ManyToOne;
 
 /**
  * Classe responsavél por cadastrar os dados pessoais do funcionário contendo:
- * código do funcionário, nome, sobrenome, apelido, cpf, rg, data de nascimento,
- *  código da cidade, bairro, rua, número da casa, complemento, telefone residencial,
- * telefone celular, email e o código do cargo.
+ * apelido, login, senha e o instanciamento do cargo. O restante dos dados
+ * é extendido da classe Pessoa Fisica.
  * 
  * @author Bruna Zakrzeski
  * @since 1.0
@@ -17,6 +16,7 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Funcionario extends PessoaFisica {
 
+    
     //Inicio das variaveis
     private String apelido;
     @Column (unique = true)
@@ -24,6 +24,7 @@ public class Funcionario extends PessoaFisica {
     private String senha;
     @ManyToOne
     private Cargo cargo;
+    
     
     
     //Inicio Get e Set
