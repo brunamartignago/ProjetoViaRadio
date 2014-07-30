@@ -7,7 +7,7 @@ import javax.persistence.Temporal;
 
 /**
  * Classe responsavél por cadastrar o cliente na fatura recebida, contendo:
- * o código do cliente, a sequencia, o número da fatura, a data de emissão e a data 
+ * o código do cliente, a sequência, o número da fatura, a data de emissão e a data 
  * de vencimento da fatura.
  *
  * @author Bruna Zakrzeski
