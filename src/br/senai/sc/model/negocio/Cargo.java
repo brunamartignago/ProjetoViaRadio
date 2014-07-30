@@ -9,7 +9,7 @@ import javax.persistence.Lob;
  * código do cargo, nome, descrição, valor estimado e carga horária.
  * 
  * @author Bruna Zakrzeski
- * @since 1.0
+ * @since 1.0 
  * @version 1.0 07/08/2014
  */
 
