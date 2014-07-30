@@ -11,7 +11,7 @@ import javax.persistence.Temporal;
 /**
  * Classe responsavél por cadastrar cliente em uma determinada rede contendo: o
  * código do cliente, a sequencia, a data do inicio do uso da determinada rede,
- * e o código da rede.
+ * e o código da rede. 
  *
  * @author Bruna Zakrzeski
  * @since 1.0
