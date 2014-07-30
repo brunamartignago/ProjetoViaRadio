@@ -5,9 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Temporal;
 
+
 /**
  * Classe responsavél por cadastrar o recebimento das mensalidades, contendo:
- * o código da fatura, sequencia, data de recebimento e o valor.
+ * o código da fatura, o instanciamento da classe Cliente Rede Fatura trazendo o id
+ * do cliente rede, sequencia, data de recebimento e o valor.
  * 
  * @author Bruna Zakrzeski
  * @since 1.0
@@ -25,8 +27,10 @@ public class Recebimento {
     @Temporal(javax.persistence.TemporalType.DATE)
     private Date dataRecebimento;
     private double valor;
-
     //Fim das variaveis
+    
+    
+    //Inicio get e set
     public int getCodigo() {
         return codigo;
     }
@@ -58,5 +62,6 @@ public class Recebimento {
     public void setValor(double valor) {
         this.valor = valor;
     }
+    //Fim do get e set
 
 }
