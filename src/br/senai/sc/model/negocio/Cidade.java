@@ -3,12 +3,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 
 
 /**
  * Classe responsavél por cadastrar a cidade contendo: o código da cidade,
- * o nome.
+ * o nome e o instaciamento do estado.
  * 
  * @author Bruna Zakrzeski
  * @since 1.0
