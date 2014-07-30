@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 /**
  * Classe responsavél por cadastrar as situações das redes, contendo:
- * o código da situação e o nome da situação.
+ * o código da situação e o nome da situação. 
  * 
  * @author Bruna Zakrzeski
  * @since 1.0
