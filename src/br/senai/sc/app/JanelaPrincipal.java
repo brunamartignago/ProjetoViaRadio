@@ -13,8 +13,12 @@ import br.senai.sc.view.list.ListarStatusRecebimentoGUI;
 
 
 /**
- * Janela principal que chama todos os botãos criado no sistema
- * @author Bruna
+ * Classe responsavél por chamar todos os list dos botões do sistema
+ * resumindo a classe principal dos icones dos cadastros.
+ * 
+ * @author Bruna Zakrzeski
+ * @since 1.0
+ * @version 1.0 07/08/2014
  */
 
 public class JanelaPrincipal extends javax.swing.JFrame {
