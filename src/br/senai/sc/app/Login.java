@@ -3,9 +3,15 @@ import br.senai.sc.controller.FuncionarioController;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author Bruna
+ * Classe responsavél por autenticar o login e a senha para que 
+ * o sistema seja seja acessado pelo funcionário. Somente
+ * login e senha cadastrado tem acesso ao sistema.
+ * 
+ * @author Bruna Zakrzeski
+ * @since 1.0
+ * @version 1.0 07/08/2014
  */
+
 
 public class Login extends javax.swing.JFrame {
 
