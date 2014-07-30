@@ -14,7 +14,7 @@ import javax.persistence.Entity;
 @Entity
 public class Cliente extends PessoaFisica {
 
-    // Inicio das variaveis jkjk
+    // Inicio das variaveis
     private String telefoneTrabalho;
     private String emailAlternativo;
 
